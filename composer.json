@@ -1,0 +1,32 @@
+{
+    // package name
+    "name": "udivika/rapid-storage",
+
+    // package type
+    "type": "yii2-extension",
+
+    "description": "File storage for the Yii2 framework",
+    "keywords": ["yii2", "rapid-storage", "filestorage", "storage", "file"],
+    "license": "GNU Public License Version 3",
+    "support": {
+        "source": "git@github.com:VlPetukhov/RapidStorage.git"
+    },
+    "authors": [
+        {
+            "name": "Vladimir V Petukhov",
+            "email": "vladimir.v.petukhov@gmail.com"
+        }
+    ],
+
+    // package dependencies
+    "require": {
+        "yiisoft/yii2": "~2.0.0"
+    },
+
+    // class autoloading specs
+    "autoload": {
+        "psr-4": {
+            "Udivika\\RapidStorage\\": ""
+        }
+    }
+}
