@@ -1,8 +1,6 @@
 {
-    // package name
     "name": "udivika/rapid-storage",
 
-    // package type
     "type": "yii2-extension",
 
     "description": "File storage for the Yii2 framework",
@@ -18,12 +16,10 @@
         }
     ],
 
-    // package dependencies
     "require": {
         "yiisoft/yii2": "~2.0.0"
     },
 
-    // class autoloading specs
     "autoload": {
         "psr-4": {
             "Udivika\\RapidStorage\\": ""
