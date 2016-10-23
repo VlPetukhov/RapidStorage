@@ -21,7 +21,7 @@
 
     "autoload": {
         "psr-4": {
-            "Udivika\\RapidStorage\\": "app/components/"
+            "Udivika\\RapidStorage\\": "components/"
         }
     }
 }
