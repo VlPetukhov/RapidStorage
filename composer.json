@@ -1,8 +1,7 @@
 {
     "name": "udivika/rapid-storage",
-
-    "type": "yii2-extension",
-
+    "version" : "v0.0.0",
+    "type": "library",
     "description": "File storage for the Yii2 framework",
     "keywords": ["yii2", "rapid-storage", "filestorage", "storage", "file"],
     "license": "GNU Public License Version 3",
@@ -22,7 +21,7 @@
 
     "autoload": {
         "psr-4": {
-            "Udivika\\RapidStorage\\": ""
+            "Udivika\\RapidStorage\\": "app/components/"
         }
     }
 }
